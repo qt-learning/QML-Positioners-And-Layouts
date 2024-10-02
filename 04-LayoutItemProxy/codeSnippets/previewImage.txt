@@ -1,0 +1,10 @@
+Image {
+    id: previewImage
+
+    // In all cases, we will fill the width and height of the layout
+    Layout.fillWidth: true
+    Layout.fillHeight: true
+
+    source: Qt.resolvedUrl(`assets/image${window.currentImageIndex}.jpg`)
+    asynchronous: true
+}

@@ -1,0 +1,49 @@
+Label {
+    id: sourceTitle
+    text: qsTr("Source")
+    font.bold: true
+}
+Label {
+    id: sourceValue
+    text: previewImage.source
+}
+
+Label {
+    id: widthTitle
+    text: qsTr("Width")
+    font.bold: true
+}
+Label {
+    id: widthValue
+    text: previewImage.sourceSize.width
+}
+
+Label {
+    id: heightTitle
+    text: qsTr("Height")
+    font.bold: true
+}
+Label {
+    id: heightValue
+    text: previewImage.sourceSize.height
+}
+
+Label {
+    id: paintedWidthTitle
+    text: qsTr("Painted Width")
+    font.bold: true
+}
+Label {
+    id: paintedWidthValue
+    text: previewImage.paintedWidth
+}
+
+Label {
+    id: paintedHeightTitle
+    text: qsTr("Painted Height")
+    font.bold: true
+}
+Label {
+    id: paintedHeightValue
+    text: previewImage.paintedHeight
+}

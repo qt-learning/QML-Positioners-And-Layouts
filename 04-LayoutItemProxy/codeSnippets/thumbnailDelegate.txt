@@ -1,0 +1,41 @@
+Component {
+    id: thumbnailDelegate
+
+    // A common Image delegate with a Text which will be used in each example below
+
+    Image {
+        id: thumbnail
+
+        required property int index
+
+        source: Qt.resolvedUrl(`assets/image${index}.jpg`)
+        asynchronous: true
+
+        Layout.preferredWidth: 100
+        Layout.preferredHeight: 100
+
+        Rectangle {
+            anchors.fill: parent
+            color: "transparent"
+            border {
+                color: "white"
+                // Note that strictly we should also add pragma ComponentBehavior: Bound
+                // due to this binding from a component to an instance within this QML Context
+                width: window.currentImageIndex === thumbnail.index ? 2 : 0
+            }
+        }
+
+        Label {
+            anchors.centerIn: parent
+            font.pixelSize: 30
+            style: Text.Outline
+            styleColor: "black"
+            text: thumbnail.index
+        }
+
+        MouseArea {
+            anchors.fill: parent
+            onClicked: window.currentImageIndex = thumbnail.index
+        }
+    }
+}

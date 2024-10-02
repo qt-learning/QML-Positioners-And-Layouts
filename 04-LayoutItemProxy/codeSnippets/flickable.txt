@@ -1,0 +1,21 @@
+Flickable {
+    id: flickable
+
+    // auto flick direction based on contentItem size
+
+    contentHeight: gridLayout.height
+    contentWidth: gridLayout.width
+
+    clip: true
+
+    GridLayout {
+        id: gridLayout
+
+        columns: 2
+
+        Repeater {
+            model: 10
+            delegate: thumbnailDelegate
+        }
+    }
+}
