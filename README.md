@@ -4,9 +4,9 @@ This is the repo for the Positioners and Layouts course on Qt Academy.
 
 > Get the full learning experience by enrolling in the course on [Qt Academy](https://www.qt.io/academy/course-catalog?q=positioners#positioners-and-layouts)
 
-> You can also find the course playlist on the [Qt YouTube channel](https://www.youtube.com/playlist?list=PLizsthdRd0YyqsrOYkiC1fGmkaNnTgKTI) 
+> You can also find the course playlist on the [Qt YouTube channel](https://www.youtube.com/playlist?list=PLizsthdRd0YyqsrOYkiC1fGmkaNnTgKTI)
 
-## 🎯 What You'll Learn 
+## 🎯 What You'll Learn
 
 - **Master QML positioning techniques** from anchors to advanced responsive layouts
 - **Build an adaptive image gallery** that works across desktop, tablet, and mobile devices
@@ -14,7 +14,7 @@ This is the repo for the Positioners and Layouts course on Qt Academy.
 
 ⭐ **Skill Level:** Beginner
 
-⏱️ **Time to Complete:** **95** minutes 
+⏱️ **Time to Complete:** **95** minutes
 
 ## Getting Started
 
@@ -43,3 +43,22 @@ If you need additional help, the following resources may be helpful:
 - Qt Documentation: https://doc.qt.io
 - Qt Forum: https://forum.qt.io
 - Qt Academy: https://qt.io/academy
+
+## Licensing Information
+
+```
+Copyright (C) 2026 Qt Group.
+SPDX-License-Identifier: LicenseRef-Qt-Commercial OR GPL-3.0-only
+```
+
+This course explains the positioners and layouts in QML and the Qt framework. This course will provide a range of methods to arrange and size visual items within a QML application.
+
+### Terms and Conditions
+
+If you, your employer, or the legal entity you act on behalf of hold commercial license(s) with a Qt Group entity, this software package constitutes Pre-Release Code under the Qt License/Frame Agreement governing those licenses, and that agreement's terms and conditions govern your access and use of this software package.
+
+This software package may provide links or access to third party libraries or code (collectively "Third-Party Software") to implement various functions. Use or distribution of Third-Party Software is discretionary and in all respects subject to applicable license terms of applicable third-party right holders.
+
+### Third-Party Attributions
+
+- The images used in this project are sourced from [Unsplash](https://unsplash.com), Each image is credited to its respective Unsplash in `00-Assets/assets/attributions.md`. These images are licensed under the [Unsplash License](https://unsplash.com/license).
